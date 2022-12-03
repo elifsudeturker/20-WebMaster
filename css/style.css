@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+  
+/* h1 kodları */
+
+h1{
+    color:whitesmoke;
+    font-size: 40px;
+    margin: 20px;
+}
+
+h1>span{
+    color: black; /*renk kodu*/
+}
+
+/* linklerin kodları */
+
+.link ul li{
+    list-style: none;
+    display: inline;
+}
+
+.link a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+   
+}
+
+.link a:hover{
+    color: black;
+   
+}
