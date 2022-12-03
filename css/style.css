@@ -25,9 +25,16 @@ h1>span{
 
 /* linklerin kodları */
 
+.link{
+    float: right;
+    margin-right:20px;
+    margin-top: -60px;
+}
+
 .link ul li{
     list-style: none;
     display: inline;
+    margin: 0 12px;
 }
 
 .link a{
@@ -41,5 +48,46 @@ h1>span{
 
 .link a:hover{
     color: black;
-   
+    text-decoration: underline;
+}
+
+/* section kodları */
+
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+body section h2{
+    font-size: 30px;
+    color: white;
+    text-shadow:0 0 20px #000;
+}
+
+h2 span{
+    color: black;
+}
+
+section p{
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+section a{
+    color:black;
+    background-color:#a8c9db;
+    font-size: 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 3px solid #6aa5e4;
+    margin: 5px;
+    padding: 3px 10px;
+
+}
+
+section a:hover{
+    color:white;
+    
 }
